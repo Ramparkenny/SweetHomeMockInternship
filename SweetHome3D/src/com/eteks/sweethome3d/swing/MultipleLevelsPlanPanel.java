@@ -658,6 +658,10 @@ public class MultipleLevelsPlanPanel extends JPanel implements PlanView, Printab
     return this.planComponent.getVerticalRuler();
   }
 
+  PlanComponent getPlanComponent() {
+    return this.planComponent;
+  }
+
   /**
    * Prints the plan component.
    */
